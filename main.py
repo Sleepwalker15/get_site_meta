@@ -3,7 +3,7 @@ import requests
 import sys
 import time
 
-site = "http://truba-delo.ru/"
+site = input("site:")
 
 headers = {
     'accept': '*/*',
